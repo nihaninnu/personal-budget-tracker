@@ -1,0 +1,46 @@
+
+    body {
+        background-image: url('.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c397a;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+#summary {
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+}
